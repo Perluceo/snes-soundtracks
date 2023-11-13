@@ -1,0 +1,28 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snes.js",
+  "scripts": {
+    "test": "snes.js",
+    "start": "node ./snes.js",
+    "develop": "NODE_ENV=develop node snes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perluceo/snes-soundtracks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perluceo/snes-soundtracks/issues"
+  },
+  "homepage": "https://github.com/Perluceo/snes-soundtracks#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node": "^21.1.0",
+    "node-schedule": "^2.1.1",
+    "twit": "^2.2.11"
+  }
+}
